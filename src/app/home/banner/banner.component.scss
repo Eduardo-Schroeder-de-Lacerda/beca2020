@@ -1,0 +1,110 @@
+.container {
+    background-color: salmon;
+    display: flex;
+    height: 90vh;
+    padding: 0 100px;
+    align-items: center;
+    flex-direction: column;
+    .logo-container {
+        display: flex;
+        margin-top: 20px;
+        justify-content: flex-start;
+        width: 100%;
+        .logo {
+            height: 50px;
+            width: 100px;
+            background-color: red;
+        }
+    }
+
+    .content-container {
+        background-color: sienna;
+        height: 80%;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+        .text-container {
+            display: flex;
+            height: 90%;
+            background-color: black;
+            width: 40%;
+            padding: 0 20px;
+            flex-direction: column;
+            color: white;
+            .title {
+                font-size: 50px;
+                font-weight: bold;
+                margin-bottom: 10px;
+                margin-top: 40px;
+            }
+
+            .ul-container {
+                font-size: 18px;
+                font-weight: bold;
+                display: flex;
+                flex-direction: column;
+                padding: 0 20px;
+                .title {
+                    font-size: 18px;
+                    margin-bottom: 20px;
+                }
+                .sub-title {
+                    font-size: 15px;
+                    padding: 0 5px;
+                    margin-bottom: 20px;
+                }
+            }
+        }
+        .form-container {
+            display: flex;
+            height: 90%;
+            background-color: yellowgreen;
+            width: 40%;
+            border-radius: 5px;
+            flex-direction: column;
+            .title-container {
+                display: flex;
+                height: 20%;
+                background: orange;
+                border-top-left-radius: 5px;
+                border-top-right-radius: 5px;
+                align-items: center;
+                justify-content: center;
+            }
+
+            .form {
+                display: flex;
+                justify-content: center;
+                flex-wrap: wrap;
+                padding: 0 20px;
+                height: 70%;
+                margin-top: 20px;
+                select {
+                    height: 40px;
+                    width: 200px;
+                    margin: 0 5px;
+                }
+                input {
+                    height: 40px;
+                    width: 200px;
+                    margin: 0 5px;
+                }
+                .last {
+                    width: 400px;
+                }
+                .container-button {
+                    display: flex;
+                    justify-content: center;
+                    padding: 20px;
+                    width: 100%;
+                    button {
+                        width: 400px;
+                        height: 50px;
+                    }
+                }
+            }
+        }
+    }
+}
